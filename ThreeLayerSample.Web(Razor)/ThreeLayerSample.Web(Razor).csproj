@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>ThreeLayerSample.Web_Razor_</RootNamespace>
+    <UserSecretsId>a3a20c55-6749-41cf-baad-d2f7e5daa65e</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ThreeLayerSample.Service\ThreeLayerSample.Service.csproj" />
+  </ItemGroup>
+
+</Project>

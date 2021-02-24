@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ThreeLayerSample.Domain/bin
+/.vs
+/ThreeLayerSample.Domain/obj
+/ThreeLayerSample.Infrastructure/bin
+/ThreeLayerSample.Infrastructure/obj
+/ThreeLayerSample.Service/bin
+/ThreeLayerSample.Service/obj
+/ThreeLayerSample.Web(Razor)/bin
+/ThreeLayerSample.Web(Razor)/obj
+/ThreeLayerSample.Web(Razor)/wwwroot
+/ThreeLayerSample.Web(Razor)/Properties/PublishProfiles
