@@ -18,7 +18,7 @@ namespace ThreeLayerSample.Web_Razor_.Extensions
         /// <param name="services"></param>
         /// <param name="configuration"></param>
         /// <returns></returns>
-        public static IServiceCollection AddDatabase(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddDatabase(this IServiceCollection services)
         {
             // Configure DbContext with Scoped lifetime   
             services.AddDbContext<DemoContext>(options =>
