@@ -22,7 +22,7 @@
 * Run the app
 
 **Deploy to your IIS**
-* Create a folder then publish the ap to that folder.
+* Create a folder then publish the app to that folder.
 * Create a site in IIS, point that site to the published folder.
 * Launch the site on your browser.
 
